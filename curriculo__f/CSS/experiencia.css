@@ -1,0 +1,63 @@
+
+header {
+    background-color: rgb(200, 251, 252);
+    height: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu li{
+    a{
+    border: 1px solid;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color:  rgb(135, 190, 201);
+    }
+}
+
+.menu ul{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+  
+    display: flex;
+}
+
+body{
+    width: 99%;
+    background-color:  aliceblue;
+}
+
+
+
+.meio{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center  ;
+
+   border-radius: 20px;
+   box-shadow: 10px black;
+   width: 80%;
+   margin: auto;
+
+   background-color: white;
+
+
+}
+
+.cima{
+    width: 50%;
+    img{
+        float: left;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+}
+
+.experiencia{
+    width: 50%  ;
+}
