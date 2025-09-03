@@ -1,0 +1,76 @@
+body{
+    width: 99%;
+    background-color:  aliceblue;
+}
+
+p, li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    color: cadetblue;
+   
+}
+ol{
+    list-style-type: none;
+}
+
+#contatos h2{
+    margin-left: 20px;
+  
+}
+
+.cima{
+    width: 50%;
+    img{
+        float: left;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+}
+.meio{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center  ;
+
+   border-radius: 20px;
+   box-shadow: 10px black;
+   width: 80%;
+   margin: auto;
+
+   background-color: white;
+
+
+}
+
+header {
+    background-color: rgb(200, 251, 252);
+    height: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu li{
+    a{
+    border: 1px solid;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color:  rgb(135, 190, 201);
+    }
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+  
+    display: flex;
+}
+h1{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
